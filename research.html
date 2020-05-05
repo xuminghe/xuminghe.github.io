@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research Projects</title>
+<!-- MathJax -->
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+	  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<!-- End MathJax -->
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Xuming He</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="about.html">About</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="research.html" class="current">Project</a></div>
+<div class="menu-item"><a href="publication.html">Publication</a></div>
+<div class="menu-item"><a href="students.html">Student</a></div>
+<div class="menu-category">Teaching</div>
+<div class="menu-item"><a href="courses.html">Course@SIST</a></div>
+<div class="menu-item"><a href="reading.html">Reading&nbsp;Group</a></div>
+<div class="menu-category">Links</div>
+<div class="menu-item"><a href="http://plus.sist.shanghaitech.edu.cn">PLUS@ShanghaiTech</a></div>
+<div class="menu-item"><a href="http://cecs.anu.edu.au/">CECS@ANU</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Projects</h1>
+</div>
+<div class="infoblock">
+<div class="blockcontent">
+<p>Please see our <a href="http://plus.sist.shanghaitech.edu.cn" target=&ldquo;blank&rdquo;>PLUS Lab</a> website for more details.</p>
+</div></div>
+<h2>Few-shot Learning</h2>
+<table class="imgtable"><tr><td>
+<a href="projects/CVPR15_title.png"><img src="projects/oneshot_title.png" alt="alt text" width="320px" height="180px" /></a>&nbsp;</td>
+<td align="left"><p>Despite recent success of deep neural networks, it remains challenging to efficiently learn new visual concepts from limited training data. To address this problem, a prevailing strategy is to build a meta-learner that learns prior knowledge on learning from a small set of annotated data. 
+We propose a novel meta-learning method for few-shot classification based on two simple attention mechanisms: one is a spatial attention to localize relevant object regions and the other is a task attention to select similar training data for label prediction. We implement our method via a dual-attention network and design a semantic-aware meta-learning loss to train the meta-learner network in an end-to-end manner.</p>
+</td></tr></table>
+<ul>
+<li><p><b>A Dual Attention Network with Semantic Embedding for Few-shot Learning</b>, [<a href="papers/stanet_aaai19.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Shipeng Yan, Songyang Zhang, Xuming He <br />
+<i>AAAI Conference on Artificial Intelligence (AAAI)</i>,2019</p>
+</li>
+</ul>
+<ul>
+<li><p><b>One-shot Action Localization by Learning Sequence Matching Network</b>, [<a href="papers/oneshot_action.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Hongtao Yang, Xuming He, Fatih Porikli <br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2018 </p>
+</li>
+</ul>
+<h2>Connecting Vision and Language</h2>
+<table class="imgtable"><tr><td>
+<a href="projects/CVPR18_title.png"><img src="projects/CVPR18_title.png" alt="alt text" width="300px" height="180px" /></a>&nbsp;</td>
+<td align="left"><p>Linguistic style is an essential part of written communication, which can affect
+both clarity and attractiveness. With recent advances in vision and language,
+we can start to tackle the problem of generating image captions that are both visually grounded and appropriately styled. 
+We develop a model that learns to generate visually relevant styled captions from a large corpus of styled text without aligned images.
+One key component is a novel and concise semantic term representation 
+generated using natural language processing techniques and frame semantics. </p>
+</td></tr></table>
+<ul>
+<li><p><b>SemStyle: Learning to Generate Stylised Image Captions using Unaligned Text</b>, [<a href="papers/attn_style_transfer.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Alexander Mathews, Lexing Xie, Xuming He <br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2018 </p>
+</li>
+</ul>
+<ul>
+<li><p><b>SentiCap: Generating Image Descriptions with Sentiments</b>, [<a href="papers/senti_desc_full.pdf" target=&ldquo;blank&rdquo;>pdf</a>] [<a href="http://arxiv.org/abs/1510.01431" target=&ldquo;blank&rdquo;>arXiv</a>] <br />
+Alexander Mathews, Lexing Xie, Xuming He <br />
+<i>AAAI Conference on Artificial Intelligence (AAAI-16)</i>, 2016</p>
+</li>
+</ul>
+<h2>Object Detection in Context</h2>
+<table class="imgtable"><tr><td>
+<a href="projects/codetect_title.png"><img src="projects/codetect_title.png" alt="alt text" width="300px" height="130px" /></a>&nbsp;</td>
+<td align="left"><p>Exploring contextual relations is one of the key factors to improve object detection under challenging viewing condition and to scale up recognition to large numbers of object classes. We consider two effective approaches that incorporate contextual information: object codetection, which jointly detects object instances in a set of related images, and structural Hough voting, which models the context from 2.5D perspective for object localization under heavy occlusion.</p>
+</td></tr></table>
+<ul>
+<li><p><b>Efficient Scene Layout Aware Object Detection for Traffic Surveillance</b>, [<a href="http://taowang.info/papers/traffic_cvprw17.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Tao Wang, Xuming He, Songzhi Su, Yin Guan <br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</i>, 2017. <br />
+<i><b>Traffic Surveillance Workshop and Challenge Best Paper Award</b></i>.</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Learning to Co-Generate Object Proposals with a Deep Structured Network</b>, [<a href="papers/1701.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Zeeshan Hayder, Xuming He, Mathieu Salzmann<br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2016 </p>
+</li>
+</ul>
+<h2>Object and Scene Parsing</h2>
+<table class="imgtable"><tr><td>
+<a href="projects/CVPR15_title.png"><img src="projects/cvpr14_front.jpg" alt="alt text" width="300px" height="180px" /></a>&nbsp;</td>
+<td align="left"><p>We address the problem of joint detection and segmentation
+of multiple object instances in an image, a key step towards
+scene understanding. Inspired by data-driven methods,
+we propose an exemplar-based approach to the task
+of instance segmentation, in which a set of reference image/shape
+masks is used to find multiple objects. We design
+a novel CRF framework that jointly models object appearance,
+shape deformation, and object occlusion. </p>
+</td></tr></table>
+<ul>
+<li><p><b>Deep Free-Form Deformation Network for Object-Mask Registration</b>, [<a href="papers/ds_iccv17.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Haoyang Zhang, Xuming He<br />
+<i>International Conference on Computer Vision (ICCV)</i>, 2017 </p>
+</li>
+</ul>
+<ul>
+<li><p><b>Learning Dynamic Hierarchical Models for Anytime Scene Labeling</b>, [<a href="papers/eccv2016final.pdf" target=&ldquo;blank&rdquo;>pdf</a>] [<a href="https://arxiv.org/abs/1608.03474" target=&ldquo;blank&rdquo;>arXiv</a>]<br />
+Buyu Liu, Xuming He <br /> 
+<i>European Conference on Computer Vision (ECCV)</i>, 2016</p>
+</li>
+</ul>
+<h2>Holistic Video Understanding</h2>
+<table class="imgtable"><tr><td>
+<a href="projects/WACV15_title.png"><img src="projects/WACV15_title.png" alt="alt text" width="300px" height="175px" /></a>&nbsp;</td>
+<td align="left"><p>We address the problem of integrating object reasoning
+with supervoxel labeling in multiclass semantic video
+segmentation. To this end, we first propose an object-augmented
+CRF in spatio-temporal domain, which
+captures long-range dependency between supervoxels, and
+imposes consistency between object and supervoxel labels.
+We develop an efficient inference algorithm to
+jointly infer the supervoxel labels, object activations and
+their occlusion relations for a large number of object
+hypotheses.</p>
+</td></tr></table>
+<ul>
+<li><p><b>3D Object Structure Recovery via Semi-supervised Learning on Videos</b>, [<a href="papers/3d_semi_bmvc18.pdf" target=&ldquo;blank&rdquo;>pdf</a>] <br />
+Qian He, Desen Zhou, Xuming He <br />
+<i>British Machine Vision Conference (BMVC)</i>,2018</p>
+</li>
+</ul>
+<ul>
+<li><p><b>Multiclass Semantic Video Segmentation with Object-Level Active Inference</b>, [<a href="papers/1889.pdf" target=&ldquo;blank&rdquo;>pdf</a>] [<a href="papers/1889-supp.zip" target=&ldquo;blank&rdquo;>suppl zip</a>] <br />
+Buyu Liu, Xuming He <br />
+<i>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</i>, 2015 
+</p>
+</li>
+</ul>
+<div class="infoblock">
+<div class="blockcontent">
+<p>More details on previous projects can be found <a href="prev_proj.html" target=&ldquo;blank&rdquo;>here</a>.</p>
+</div></div>
+<div id="footer">
+<div id="footer-text">
+Page generated 2019-11-24 18:00:46 CST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
